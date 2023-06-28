@@ -93,7 +93,7 @@ export default function Home() {
                 className="w-32 h-32 xlMax:w-12 xlMax:h-12"
                 alt="The Cure album cover"
               />
-              <strong className="xlMax:text-xs">Boys Don`&apos;`t Cry</strong>
+              <strong className="xlMax:text-xs">Boys Don&apos;t Cry</strong>
               <button className="w-12 h-12 flex items-center justify-center pl-1 rounded-full bg-green-400 text-black ml-auto mr-8 invisible group-hover:visible xlMax:w-8 xlMax:h-8 mobile:hidden">
                 <PlayIcon />
               </button>
@@ -122,7 +122,7 @@ export default function Home() {
                 alt="Bauhaus album cover"
               />
               <strong className="xlMax:text-xs">
-                Whitout You I`&apos;`m Nothing
+                Whitout You I&apos;m Nothing
               </strong>
               <button className="w-12 h-12 flex items-center justify-center pl-1 rounded-full bg-green-400 text-black ml-auto mr-8 invisible group-hover:visible xlMax:w-8 xlMax:h-8 mobile:hidden">
                 <PlayIcon />
@@ -185,7 +185,7 @@ export default function Home() {
               />
               <strong className="font-semibold">This is Radiohead</strong>
               <span className="text-sm text-zinc-500">
-                A list of Radiohead&apos;s best songs
+              A list of their best songs
               </span>
             </a>
             <a className="bg-white/5 p-3 rounded-md flex flex-col gap-2 hover:bg-white/10">
@@ -196,7 +196,7 @@ export default function Home() {
                 height={120}
                 alt="Pink Floyd album cover"
               />
-              <strong className="font-semibold">Alternative 70&apos;s</strong>
+              <strong className="font-semibold">Alternative Seventies</strong>
               <span className="text-sm text-zinc-500">
                 Pink Floyd, Yes, Emerson, Lake and Palmer and more
               </span>
@@ -211,7 +211,7 @@ export default function Home() {
               />
               <strong className="font-semibold">The Beatles</strong>
               <span className="text-sm text-zinc-500">
-                A list of The Beatles&apos; best songs
+              A list of their best songs
               </span>
             </a>
             <a className="bg-white/5 p-3 rounded-md flex flex-col gap-2 hover:bg-white/10">
@@ -224,7 +224,7 @@ export default function Home() {
               />
               <strong className="font-semibold">This is Jimi Hendrix</strong>
               <span className="text-sm text-zinc-500">
-                A list of Hendrix&apos;s best songs
+              A list of their best songs
               </span>
             </a>
             <a className="bg-white/5 p-3 rounded-md flex flex-col gap-2 hover:bg-white/10">
@@ -237,7 +237,7 @@ export default function Home() {
               />
               <strong className="font-semibold">This is New Order</strong>
               <span className="text-sm text-zinc-500">
-                A list of New Order&apos;s best songs
+              A list of their best songs
               </span>
             </a>
             <a className="bg-white/5 p-3 rounded-md flex flex-col gap-2 hover:bg-white/10">
@@ -252,7 +252,7 @@ export default function Home() {
                 This is The Smashing Pumpkins
               </strong>
               <span className="text-sm text-zinc-500">
-                A list of The Smashing Pumpkins&apos;s best songs
+              A list of their best songs
               </span>
             </a>
           </div>
@@ -272,7 +272,7 @@ export default function Home() {
                 This is Vinicius de Moraes
               </strong>
               <span className="text-sm text-zinc-500">
-                A list of Vinicius de Moraes&apos; best songs
+              A list of their best songs
               </span>
             </a>
             <a className="bg-white/5 p-3 rounded-md flex flex-col gap-2 hover:bg-white/10">
@@ -285,7 +285,7 @@ export default function Home() {
               />
               <strong className="font-semibold">This is Cartola</strong>
               <span className="text-sm text-zinc-500">
-                A list of Cartola&apos;s best songs
+              A list of their best songs
               </span>
             </a>
             <a className="bg-white/5 p-3 rounded-md flex flex-col gap-2 hover:bg-white/10">
@@ -298,7 +298,7 @@ export default function Home() {
               />
               <strong className="font-semibold">This is Caetano Veloso</strong>
               <span className="text-sm text-zinc-500">
-                A list of Caetano Veloso&apos;s best songs
+              A list of their best songs
               </span>
             </a>
             <a className="bg-white/5 p-3 rounded-md flex flex-col gap-2 hover:bg-white/10">
@@ -311,7 +311,7 @@ export default function Home() {
               />
               <strong className="font-semibold">This is Chico Buarque</strong>
               <span className="text-sm text-zinc-500">
-                A list of Chico Buarque&apos;s best songs
+              A list of their best songs
               </span>
             </a>
             <a className="bg-white/5 p-3 rounded-md flex flex-col gap-2 hover:bg-white/10">
@@ -324,7 +324,7 @@ export default function Home() {
               />
               <strong className="font-semibold">Clube da Esquina</strong>
               <span className="text-sm text-zinc-500">
-                A list of Clube da Esquina&apos;s best songs
+              A list of their best songs
               </span>
             </a>
             <a className="bg-white/5 p-3 rounded-md flex flex-col gap-2 hover:bg-white/10">
@@ -337,7 +337,7 @@ export default function Home() {
               />
               <strong className="font-semibold">This is Os Mutantes</strong>
               <span className="text-sm text-zinc-500">
-                A list of Os Mutantes&apos; best songs
+              A list of their best songs
               </span>
             </a>
             <a className="bg-white/5 p-3 rounded-md flex flex-col gap-2 hover:bg-white/10">
@@ -350,7 +350,7 @@ export default function Home() {
               />
               <strong className="font-semibold">Violeta de Outono</strong>
               <span className="text-sm text-zinc-500">
-                A list of Violeta de Outono&apos;s best songs
+              A list of their best songs
               </span>
             </a>
             <a className="bg-white/5 p-3 rounded-md flex flex-col gap-2 hover:bg-white/10">
@@ -363,7 +363,7 @@ export default function Home() {
               />
               <strong className="font-semibold">This is Casuarina</strong>
               <span className="text-sm text-zinc-500">
-                A list of Casuarina&apos;s best songs
+                A list of their best songs
               </span>
             </a>
           </div>

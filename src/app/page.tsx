@@ -60,7 +60,7 @@ export default function Home() {
               href="#"
               className="bg-white/5 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/10 transition-colors xlMax:h-12"
             >
-              <img
+              <Image
                 src="/JoyDivision.jpg"
                 className="w-32 h-32 xlMax:w-12 xlMax:h-12"
                 alt="Joy Division album cover"
@@ -74,7 +74,7 @@ export default function Home() {
               href="#"
               className="bg-white/5 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/10 transition-colors xlMax:h-12"
             >
-              <img
+              <Image
                 src="/Smiths.jpg"
                 className="w-32 h-32 xlMax:w-12 xlMax:h-12"
                 alt="The Smiths album cover"
@@ -88,12 +88,12 @@ export default function Home() {
               href="#"
               className="bg-white/5 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/10 transition-colors xlMax:h-12"
             >
-              <img
+              <Image
                 src="/Cure.jpg"
                 className="w-32 h-32 xlMax:w-12 xlMax:h-12"
                 alt="The Cure album cover"
               />
-              <strong className="xlMax:text-xs">Boys Don't Cry</strong>
+              <strong className="xlMax:text-xs">Boys Don`&apos;`t Cry</strong>
               <button className="w-12 h-12 flex items-center justify-center pl-1 rounded-full bg-green-400 text-black ml-auto mr-8 invisible group-hover:visible xlMax:w-8 xlMax:h-8 mobile:hidden">
                 <PlayIcon />
               </button>
@@ -102,7 +102,7 @@ export default function Home() {
               href="#"
               className="bg-white/5 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/10 transition-colors xlMax:h-12"
             >
-              <img
+              <Image
                 src="/Bauhaus.jpg"
                 className="w-32 h-32 xlMax:w-12 xlMax:h-12"
                 alt="Bauhaus album cover"
@@ -116,12 +116,14 @@ export default function Home() {
               href="#"
               className="bg-white/5 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/10 transition-colors xlMax:h-12"
             >
-              <img
+              <Image
                 src="/Placebo.jpg"
                 className="w-32 h-32 xlMax:w-12 xlMax:h-12"
                 alt="Bauhaus album cover"
               />
-              <strong className="xlMax:text-xs">Whitout You I'm Nothing</strong>
+              <strong className="xlMax:text-xs">
+                Whitout You I`&apos;`m Nothing
+              </strong>
               <button className="w-12 h-12 flex items-center justify-center pl-1 rounded-full bg-green-400 text-black ml-auto mr-8 invisible group-hover:visible xlMax:w-8 xlMax:h-8 mobile:hidden">
                 <PlayIcon />
               </button>
@@ -130,7 +132,7 @@ export default function Home() {
               href="#"
               className="bg-white/5 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/10 transition-colors xlMax:h-12"
             >
-              <img
+              <Image
                 src="/Gang.jpg"
                 className="w-32 h-32 xlMax:w-12 xlMax:h-12"
                 alt="Bauhaus album cover"
@@ -148,7 +150,7 @@ export default function Home() {
 
           <div className="grid grid-cols-8 gap-4 mt-4 mobile:grid-cols-2 mobileMin:grid-cols-3 mediumMax:grid-cols-2 largeMin:grid-cols-4 xlMin:grid-cols-6 2xlMin:grid-cols-8">
             <a className="bg-white/5 p-3 rounded-md flex flex-col gap-2 hover:bg-white/10">
-            <Image
+              <Image
                 src="/Mix-1.jpg"
                 className="w-full rounded-md"
                 width={120}
@@ -170,7 +172,7 @@ export default function Home() {
               />
               <strong className="font-semibold">Early Alternative</strong>
               <span className="text-sm text-zinc-500">
-              The Velvet Underground, Lou Reed, The Stooges and more
+                The Velvet Underground, Lou Reed, The Stooges and more
               </span>
             </a>
             <a className="bg-white/5 p-3 rounded-md flex flex-col gap-2 hover:bg-white/10">
@@ -183,7 +185,7 @@ export default function Home() {
               />
               <strong className="font-semibold">This is Radiohead</strong>
               <span className="text-sm text-zinc-500">
-                A list of Radiohead's best songs
+                A list of Radiohead`&apos;`s best songs
               </span>
             </a>
             <a className="bg-white/5 p-3 rounded-md flex flex-col gap-2 hover:bg-white/10">
@@ -194,7 +196,7 @@ export default function Home() {
                 height={120}
                 alt="Pink Floyd album cover"
               />
-              <strong className="font-semibold">Alternative 70's</strong>
+              <strong className="font-semibold">Alternative 70`&apos;`s</strong>
               <span className="text-sm text-zinc-500">
                 Pink Floyd, Yes, Emerson, Lake and Palmer and more
               </span>
@@ -209,7 +211,7 @@ export default function Home() {
               />
               <strong className="font-semibold">The Beatles</strong>
               <span className="text-sm text-zinc-500">
-              A list of The Beatle's best songs
+                A list of The Beatles`&apos;` best songs
               </span>
             </a>
             <a className="bg-white/5 p-3 rounded-md flex flex-col gap-2 hover:bg-white/10">
@@ -222,7 +224,7 @@ export default function Home() {
               />
               <strong className="font-semibold">This is Jimi Hendrix</strong>
               <span className="text-sm text-zinc-500">
-              A list of Hendrix's best songs
+                A list of Hendrix`&apos;`s best songs
               </span>
             </a>
             <a className="bg-white/5 p-3 rounded-md flex flex-col gap-2 hover:bg-white/10">
@@ -235,7 +237,7 @@ export default function Home() {
               />
               <strong className="font-semibold">This is New Order</strong>
               <span className="text-sm text-zinc-500">
-              A list of New Order's best songs
+                A list of New Order`&apos;`s best songs
               </span>
             </a>
             <a className="bg-white/5 p-3 rounded-md flex flex-col gap-2 hover:bg-white/10">
@@ -246,16 +248,16 @@ export default function Home() {
                 height={120}
                 alt="Smashing Pumpkins album cover"
               />
-              <strong className="font-semibold">This is The Smashing Pumpkins</strong>
+              <strong className="font-semibold">
+                This is The Smashing Pumpkins
+              </strong>
               <span className="text-sm text-zinc-500">
-              A list of The Smashing Pumpkins's best songs
+                A list of The Smashing Pumpkins`&apos;`s best songs
               </span>
             </a>
           </div>
 
-          <h2 className="font-semibold text-2xl mt-10">
-            Brasilidades
-          </h2>
+          <h2 className="font-semibold text-2xl mt-10">Brasilidades</h2>
 
           <div className="grid grid-cols-8 gap-4 mt-4 mobile:grid-cols-2 mobileMin:grid-cols-3 mediumMax:grid-cols-2 largeMin:grid-cols-4 xlMin:grid-cols-6 2xlMin:grid-cols-8">
             <a className="bg-white/5 p-3 rounded-md flex flex-col gap-2 hover:bg-white/10">
@@ -266,9 +268,11 @@ export default function Home() {
                 height={120}
                 alt="Vinicius de Moraes album cover"
               />
-              <strong className="font-semibold">This is Vinicius de Moraes</strong>
+              <strong className="font-semibold">
+                This is Vinicius de Moraes
+              </strong>
               <span className="text-sm text-zinc-500">
-              A list of Vinicius de Moraes' best songs
+                A list of Vinicius de Moraes`&apos;` best songs
               </span>
             </a>
             <a className="bg-white/5 p-3 rounded-md flex flex-col gap-2 hover:bg-white/10">
@@ -281,7 +285,7 @@ export default function Home() {
               />
               <strong className="font-semibold">This is Cartola</strong>
               <span className="text-sm text-zinc-500">
-              A list of Cartola's best songs
+                A list of Cartola`&apos;`s best songs
               </span>
             </a>
             <a className="bg-white/5 p-3 rounded-md flex flex-col gap-2 hover:bg-white/10">
@@ -294,7 +298,7 @@ export default function Home() {
               />
               <strong className="font-semibold">This is Caetano Veloso</strong>
               <span className="text-sm text-zinc-500">
-              A list of Caetano Veloso's best songs
+                A list of Caetano Veloso`&apos;`s best songs
               </span>
             </a>
             <a className="bg-white/5 p-3 rounded-md flex flex-col gap-2 hover:bg-white/10">
@@ -307,7 +311,7 @@ export default function Home() {
               />
               <strong className="font-semibold">This is Chico Buarque</strong>
               <span className="text-sm text-zinc-500">
-              A list of Chico Buarque's best songs
+                A list of Chico Buarque`&apos;`s best songs
               </span>
             </a>
             <a className="bg-white/5 p-3 rounded-md flex flex-col gap-2 hover:bg-white/10">
@@ -320,7 +324,7 @@ export default function Home() {
               />
               <strong className="font-semibold">Clube da Esquina</strong>
               <span className="text-sm text-zinc-500">
-              A list of Clube da Esquina's best songs
+                A list of Clube da Esquina`&apos;`s best songs
               </span>
             </a>
             <a className="bg-white/5 p-3 rounded-md flex flex-col gap-2 hover:bg-white/10">
@@ -333,7 +337,7 @@ export default function Home() {
               />
               <strong className="font-semibold">This is Os Mutantes</strong>
               <span className="text-sm text-zinc-500">
-              A list of Os Mutantes' best songs
+                A list of Os Mutantes`&apos;` best songs
               </span>
             </a>
             <a className="bg-white/5 p-3 rounded-md flex flex-col gap-2 hover:bg-white/10">
@@ -346,7 +350,7 @@ export default function Home() {
               />
               <strong className="font-semibold">Violeta de Outono</strong>
               <span className="text-sm text-zinc-500">
-              A list of Violeta de Outono's best songs
+                A list of Violeta de Outono`&apos;`s best songs
               </span>
             </a>
             <a className="bg-white/5 p-3 rounded-md flex flex-col gap-2 hover:bg-white/10">
@@ -359,7 +363,7 @@ export default function Home() {
               />
               <strong className="font-semibold">This is Casuarina</strong>
               <span className="text-sm text-zinc-500">
-              A list of Casuarina's best songs
+                A list of Casuarina`&apos;`s best songs
               </span>
             </a>
           </div>
